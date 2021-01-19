@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "irsans";
+  src: url(./fonts/irsans.ttf) format("trutype");
+  src: url(./fonts/IRSANS.woff) format(".woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "irsans";
+}
+.header {
+  width: 100%;
+
+  background-color: #fff;
+  text-align: right;
+}
+i {
+  color: rgb(43, 195, 119);
+  font-size: 17px;
+}
+.info {
+}
+.navbar {
+  background-color: #15416e;
+}
+.nav-links li {
+  padding-top: 20px;
+  text-align: right;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+.landing-page button {
+  font-size: 20px;
+  padding: 20px 40px;
+  background-color: rgb(43, 195, 119);
+  color: #fff;
+  margin: 10px;
+}
+.services {
+  width: 100%;
+  height: 200px;
+}
+.services h6 a {
+  text-decoration: none;
+  color: #444;
+}
+.library button {
+  font-size: 20px;
+  padding: 20px 40px;
+  background-color: rgb(43, 195, 119);
+  color: #fff;
+  margin: 10px;
+}
+.events button {
+  font-size: 20px;
+  padding: 20px 40px;
+  background-color: rgb(43, 195, 119);
+  color: #fff;
+  margin: 10px;
+}
+.events h4 a {
+  text-decoration: none;
+  color: #333;
+}
+.about-us h5 a {
+  text-decoration: none;
+  color: #333;
+}
+.lists li a {
+  text-decoration: none;
+  color: #111;
+}
+.headersticky {
+  background-image: url("./imgs/449916.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(43, 195, 119 0.97);
+  height: 30vh;
+  width: 100%;
+}
+.headersticky h2 {
+  text-align: center;
+  padding-top: 100px;
+}
