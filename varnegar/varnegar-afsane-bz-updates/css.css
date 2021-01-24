@@ -1,7 +1,22 @@
+@font-face {
+  font-family: irsans;
+  src: url(irsans.ttf), format("trutype");
+  src: url(IRSANS.woff), format(".woff");
+}
+body {
+  font-family: "irsans";
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.container {
+  background: url(./assets/img/cardmapr-Od_JHeSglJM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 90vh;
 }
 .subnav .sub-links {
   display: flex;
@@ -15,20 +30,22 @@
   justify-content: space-around;
   padding: 5px;
   margin-top: 10px;
-  color: #111;
+  color: #fff;
 }
 .sub-links li {
   list-style: none;
 }
 .sub-links i a {
   text-decoration: none;
-  color: #111;
+  color: #fff;
+  font-size: 12px;
 }
 .sub-links i {
   margin-right: auto;
   direction: ltr;
   padding-left: -25px;
   justify-content: left;
+  color: #fff;
 }
 
 button {
@@ -45,21 +62,109 @@ button a {
   color: #fff;
 }
 
+.navbar {
+  padding-top: 20px;
+}
 .navbar li {
   list-style: none;
+  text-align: center;
 }
 .navbar a {
   text-decoration: none;
   color: #111;
-  text-align: center;
 }
 .nav-links {
   display: flex;
   direction: rtl;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-left: auto;
-  background-color: rgb(231, 177, 27);
+  background-color: #fff;
 }
 .nav-links li a {
   text-align: center;
+  font-size: 12px;
+}
+.nav-links img {
+  width: 100px;
+  height: auto;
+}
+.search {
+  font-size: smaller;
+  border-radius: 3px;
+  border: none;
+}
+.landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 300px;
+}
+.landing i {
+  font-size: 18px;
+  color: #fff;
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 30vh;
+  padding-top: 10%;
+}
+.services i {
+  color: #222222;
+  font-size: 50px;
+}
+.services h3 {
+  padding: 15px;
+}
+.services p {
+  text-justify: auto;
+  text-align: right;
+  line-height: 1.5;
+}
+.firstcolumn,
+.secondcol,
+.thirdcol {
+  width: 30%;
+  height: 35px;
+}
+.counters {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50vh;
+  padding-top: 200px;
+}
+.counters-item {
+  width: 100vw;
+  height: 250px;
+  background-color: #333;
+  text-align: center;
+  justify-items: center;
+}
+.counters-item strong {
+  color: #00acee;
+  font-size: 42px;
+  text-align: center;
+}
+.bg {
+  height: 70vh;
+  padding-top: 100px;
+}
+.bg div {
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+  margin: 5px;
+  padding: 10px;
+}
+.bg div h6 {
+  text-align: right;
+}
+.bg div p {
+  text-align: right;
+}
+.bg .img {
+  background: url(./assets/img/wallpaperflare.com_wallpaper.jpg) no-repeat cover;
+  width: 50%;
 }

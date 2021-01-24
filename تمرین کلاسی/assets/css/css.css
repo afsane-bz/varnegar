@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "irsans";
+  src: url(../fonts/irsans.ttf) format("trutype");
+  src: url(../fonts/IRSANS.woff) format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "irsans";
+}
+/* topheader */
+#header {
+  background-color: #fff;
+  text-align: right;
+}
+i {
+  color: rgb(43, 195, 119);
+  font-size: 17px;
+}
+.info {
+  float: right;
+  width: 80%;
+  padding: 0 50px;
+}
+/* header */
+
+.navbar {
+  clear: both;
+  background-color: #15416e;
+  direction: rtl;
+}
+.nav-links {
+  display: flex;
+  padding: 20px;
+}
+.nav-links li {
+  padding-top: 20px;
+  text-align: center;
+  list-style: none;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin: 0 20px;
+}
+/* landing page */
+.landing-page button {
+  background: url();
+  font-size: 20px;
+  padding: 20px 40px;
+  background-color: rgb(43, 195, 119);
+  color: #fff;
+  margin: 10px;
+}
+.title {
+  direction: rtl;
+  margin-top: 10px;
+}
+.title h3 i {
+  font-size: 30px;
+}
+/* services */
+.services {
+  width: 100%;
+  height: 500px;
+  direction: rtl;
+  padding: 50px 0;
+  background-color: rgba(226, 223, 223, 0.603);
+}
+.services hr {
+  margin: 30px 0;
+}
+.services h6 a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+.cols {
+  background: #d6d9ee;
+}
+.cols h6 a {
+  font-size: 12px;
+}
+.cols h6 {
+  margin-top: 20px;
+}
+
+.row {
+  float: right;
+  background-color: #fff;
+  padding: 40px 40px 30px 40px;
+  width: 20%;
+  margin: 35px 2.5%;
+  text-align: center;
+}
+
+.row p {
+  font-size: 14px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.row img {
+  width: 70%;
+  height: auto;
+  text-align: center;
+}
+/* library images */
+.library {
+  clear: both;
+
+  direction: rtl;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+
+.library button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: rgb(43, 195, 119);
+  color: #fff;
+  margin: 10px;
+  float: right;
+}
+.library h3 i {
+  font-size: 30px;
+}
+.library h3 {
+  margin-right: 20px;
+}
+/* events */
+.events {
+  direction: rtl;
+  margin-top: 20px;
+}
+
+.events button {
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: rgb(43, 195, 119);
+  color: #fff;
+  margin: 10px;
+}
+.events h4 a {
+  text-decoration: none;
+  color: #333;
+}
+.titr {
+  float: right;
+  width: 50%;
+}
+.titr h3 i {
+  font-size: 40px;
+}
+.columns {
+  /* background: #fff; */
+  width: 100%;
+  float: right;
+}
+.col {
+  float: right;
+  width: 32%;
+  padding: 25px 30px 25px 30px;
+  margin-right: 0.94%;
+}
+.col h4 {
+  margin-top: 10px;
+}
+.col p {
+  margin-top: 10px;
+}
+
+.col img {
+  width: 370px;
+  height: 255px;
+}
+/* about us */
+
+#about-us {
+  clear: both;
+  background-color: #20242e;
+  height: 500px;
+}
+
+.right {
+  direction: rtl;
+  width: 40%;
+  padding: 40px 0;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.right h2 {
+  color: #fff;
+  text-align: right;
+}
+.right h4 {
+  text-align: right;
+  color: #d8e7ef;
+}
+.right hr {
+  margin: 10px 0;
+}
+.right p {
+  padding-top: 10px;
+  color: #d8e7efcc;
+}
+
+.right h5 a {
+  text-decoration: none;
+  color: #fff;
+}
+.video {
+  width: 40%;
+  margin-right: 15%;
+  float: right;
+  background-color: #633;
+  margin-top: 5%;
+}
+.video video {
+  width: 120%;
+}
+.map {
+  width: 100%;
+}
+/* headersticky image */
+.headersticky {
+  background-image: url("../imgs/449916.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(43, 195, 119 0.97);
+  height: 50vh;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  justify-content: center;
+}
+.headersticky h2 {
+  text-align: center;
+  padding-top: 180px;
+}
+/* footer */
+#footer {
+  background-color: #15416e;
+  height: 50vh;
+  margin: 10px 0;
+  color: #f2f4f8;
+  direction: rtl;
+}
+#footer .prg {
+  width: 30%;
+  text-align: right;
+}
+.lists {
+  float: right;
+  padding: 0 20px;
+}
+
+.lists li {
+  list-style: none;
+  margin: 20px 0;
+}
+.lists li a {
+  text-decoration: none;
+  padding: 5px;
+  color: #f2f4f8;
+}
+.prg {
+  float: right;
+  padding: 40px 10px 40px 10px;
+}
+
+.newsletter {
+  float: right;
+  padding-right: 20%;
+  padding-top: 50px;
+}
+.newsletter label {
+  padding-right: 15px;
+}
+.newsletter #input {
+  margin: 20px;
+  padding: 10px;
+  height: 45px;
+  width: 100%;
+  background-color: #d8e7ef;
+}
+.newsletter button {
+  background-color: rgb(43, 195, 119);
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 40px;
+  height: 45px;
+  cursor: pointer;
+  margin: 0 15px;
+}

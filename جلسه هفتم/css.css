@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+
+}
+#top-header {
+    background-color: #e74c3c;
+float: right;
+
+}
+
+.logo {
+    float: right;
+    margin: 10px;
+}
+.links {
+    background-color: #ecf0f1;
+    
+}
+.links li a {
+    text-decoration: none;
+    color: #2c3e50;
+    
+}
+.links li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
